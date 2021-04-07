@@ -1,0 +1,17 @@
+{
+    "go.gopath": "/home/hanz/go-work/",
+    "go.goroot": "/usr/local/go",
+    "go.formatTool": "goformat",
+    "go.autocompleteUnimportedPackages": true,
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "go.useCodeSnippetsOnFunctionSuggestWithoutType": true,
+    "go.inferGopath": true,
+    "go.gotoSymbol.includeImports": true,
+    "go.gotoSymbol.includeGoroot": true,
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+       }
+    }
+}
