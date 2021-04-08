@@ -1,0 +1,28 @@
+2021/04/08 - 17:49:39.364	info	use middleware logger
+2021/04/08 - 17:50:33.536	info	use middleware logger
+2021/04/08 - 17:52:30.141	info	use middleware logger
+2021/04/08 - 17:57:14.039	info	use middleware logger
+2021/04/08 - 17:57:18.391	info	use middleware logger
+2021/04/08 - 18:02:31.361	info	use middleware logger
+2021/04/08 - 18:03:08.996	info	use middleware logger
+2021/04/08 - 18:03:16.754	info	use middleware logger
+2021/04/08 - 18:04:20.267	info	use middleware logger
+2021/04/08 - 18:04:23.717	info	use middleware logger
+2021/04/08 - 18:05:15.367	info	use middleware logger
+2021/04/08 - 18:05:32.931	info	use middleware logger
+2021/04/08 - 18:06:09.519	info	use middleware logger
+2021/04/08 - 18:10:28.208	info	use middleware logger
+2021/04/08 - 18:10:28.208	info	router register success
+2021/04/08 - 18:10:28.208	info	server run success on 	{"address": ":0"}
+2021/04/08 - 18:13:27.792	error	accept tcp [::]:35653: use of closed network connection
+2021/04/08 - 18:13:30.363	info	use middleware logger
+2021/04/08 - 18:13:30.364	info	router register success
+2021/04/08 - 18:13:30.364	info	server run success on 	{"address": ":0"}
+2021/04/08 - 18:13:57.841	error	accept tcp [::]:44795: use of closed network connection
+2021/04/08 - 18:14:00.721	info	use middleware logger
+2021/04/08 - 18:14:00.722	info	router register success
+2021/04/08 - 18:14:00.722	info	server run success on 	{"address": ":0"}
+2021/04/08 - 18:18:04.171	error	accept tcp [::]:46305: use of closed network connection
+2021/04/08 - 18:18:06.207	info	use middleware logger
+2021/04/08 - 18:18:06.207	info	router register success
+2021/04/08 - 18:18:06.207	info	server run success on 	{"address": ":0"}
