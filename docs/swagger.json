@@ -8,22 +8,51 @@
     },
     "basePath": "/",
     "paths": {
-        "/base/login": {
-            "post": {
+        "/api/login": {
+            "get": {
                 "produces": [
                     "application/json"
                 ],
                 "tags": [
                     "Base"
                 ],
-                "summary": "用户登录",
+                "summary": "用户登录111111",
                 "responses": {
                     "200": {
-                        "description": "{\"success\":true,\"data\":{},\"msg\":\"登陆成功\"}",
+                        "description": "OK",
                         "schema": {
-                            "type": "string"
+                            "$ref": "#/definitions/response.TSRGradeControllerResponseSchema"
                         }
                     }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "response.TSRGradeControllerResponseSchema": {
+            "type": "object",
+            "properties": {
+                "code": {
+                    "type": "integer"
+                },
+                "data": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/response.TSRGradeDetail"
+                    }
+                },
+                "msg": {
+                    "type": "string",
+                    "example": "请求信息"
+                }
+            }
+        },
+        "response.TSRGradeDetail": {
+            "type": "object",
+            "properties": {
+                "id1": {
+                    "type": "string",
+                    "example": "这是什么啊"
                 }
             }
         }

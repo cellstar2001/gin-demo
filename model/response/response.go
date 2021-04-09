@@ -9,7 +9,15 @@ import (
 type Response struct {
 	Code int         `json:"code"`
 	Data interface{} `json:"data"`
-	Msg  string      `json:"msg"`
+	Msg  string      `json:"msg" example:"请求信息"`
+}
+
+type TSRGradeControllerResponseSchema struct {
+	Response
+	Data []TSRGradeDetail
+}
+type TSRGradeDetail struct {
+	Id1 string `example:"这是什么啊"`
 }
 
 const (

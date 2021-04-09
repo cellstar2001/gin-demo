@@ -1,16 +1,14 @@
 package controller
 
 import (
-	"gin-demo/model/response"
-
 	"github.com/gin-gonic/gin"
 )
 
 // @Tags Base
-// @Summary 用户登录
+// @Summary 用户登录11111123
 // @Produce  application/json
-// @Success 200 {string} string "{"success":true,"data":{},"msg":"登陆成功"}"
-// @Router /base/login [get]
+// @Success  200 {object}  response.TSRGradeControllerResponseSchema"
+// @Router /api/login [get]
 func Login(c *gin.Context) {
-	response.OkWithMessage("创建成功", c)
+
 }

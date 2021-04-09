@@ -1,0 +1,8 @@
+2021/04/09 - 13:41:12.213	info	use middleware logger
+2021/04/09 - 13:41:12.214	info	router register success
+2021/04/09 - 13:41:12.214	info	server run success on 	{"address": ":0"}
+2021/04/09 - 15:03:18.933	error	accept tcp [::]:34823: use of closed network connection
+2021/04/09 - 15:16:08.326	info	use middleware logger
+2021/04/09 - 15:16:08.327	info	router register success
+2021/04/09 - 15:16:08.327	info	server run success on 	{"address": ":0"}
+2021/04/09 - 15:17:36.839	error	accept tcp [::]:46383: use of closed network connection

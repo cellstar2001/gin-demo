@@ -26,3 +26,7 @@
 2021/04/08 - 18:18:06.207	info	use middleware logger
 2021/04/08 - 18:18:06.207	info	router register success
 2021/04/08 - 18:18:06.207	info	server run success on 	{"address": ":0"}
+2021/04/08 - 18:32:48.721	info	use middleware logger
+2021/04/08 - 18:32:48.722	info	router register success
+2021/04/08 - 18:32:48.722	info	server run success on 	{"address": ":0"}
+2021/04/08 - 18:32:48.724	error	accept tcp [::]:46539: use of closed network connection

@@ -1,5 +1,7 @@
 vscode/*
 vendor/*
+log/*
+latest_log
 !vendor/vendor.json
 coverage.out
 count.out

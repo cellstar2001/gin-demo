@@ -1,20 +1,39 @@
 basePath: /
+definitions:
+  response.TSRGradeControllerResponseSchema:
+    properties:
+      code:
+        type: integer
+      data:
+        items:
+          $ref: '#/definitions/response.TSRGradeDetail'
+        type: array
+      msg:
+        example: 请求信息
+        type: string
+    type: object
+  response.TSRGradeDetail:
+    properties:
+      id1:
+        example: 这是什么啊
+        type: string
+    type: object
 info:
   contact: {}
   description: This is a sample Server pets
   title: Swagger Example API
   version: 0.0.1
 paths:
-  /base/login:
-    post:
+  /api/login:
+    get:
       produces:
       - application/json
       responses:
         "200":
-          description: '{"success":true,"data":{},"msg":"登陆成功"}'
+          description: OK
           schema:
-            type: string
-      summary: 用户登录
+            $ref: '#/definitions/response.TSRGradeControllerResponseSchema'
+      summary: 用户登录111111
       tags:
       - Base
 securityDefinitions:
