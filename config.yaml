@@ -20,6 +20,12 @@ mysql:
   log-mode: false
   log-zap: ""
 
+mongodb:
+  mongodb-url: 'mongodb://192.168.59.65:27017'
+  database: 'qsc'
+  time-out: 100
+  connect-num: 200
+
 # system configuration
 system:
   env: 'public'  # Change to "develop" to skip authentication for development mode
